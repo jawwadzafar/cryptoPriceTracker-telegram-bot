@@ -1,0 +1,25 @@
+{
+  "name": "cryptopricetracker-telegram-bot",
+  "version": "0.1.0",
+  "description": "a telegram bot to track crypto prices",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Jawwad Zafar <zafarjawwad@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jawwadzafar/cryptoPriceTracker-telegram-bot.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "dotenv": "^6.0.0",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "mongoose": "^5.1.0",
+    "node-binance-api": "^0.8.3",
+    "node-telegram-bot-api": "^0.30.0",
+    "uuid": "^3.3.2"
+  }
+}
